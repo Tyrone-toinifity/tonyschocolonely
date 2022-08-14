@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:serif="http://www.serif.com/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 792"
+	 style="enable-background:new 0 0 612 792;" xml:space="preserve">
+<style type="text/css">
+	
+		.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#FFFFFF;stroke-width:22.04;stroke-linecap:round;stroke-miterlimit:3;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:22.85;stroke-linecap:round;stroke-miterlimit:3;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:24.88;stroke-linecap:round;stroke-miterlimit:3;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:28.84;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;}
+	
+		.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#FFFFFF;stroke-width:47.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;}
+</style>
+<g transform="matrix(3.96091,0,0,3.95845,-738.015,-719.402)">
+	<g id="_2" serif:id="2">
+		<g id="_21" serif:id="2">
+			<g transform="matrix(0.101247,0,0,0.0927569,80.2764,147.777)">
+				<g id="Basket">
+					<path class="st0" d="M2216.2,1328.8L1404,1393l53.5,634.1l695.7-8.9L2216.2,1328.8z"/>
+				</g>
+			</g>
+			<g id="Handle" transform="matrix(-0.121162,0,0,0.145103,449.68,63.0824)">
+				<g transform="matrix(0.671451,0.130421,-0.316881,1.54989,829.594,-648.268)">
+					<path class="st1" d="M1173.8,1256l116.8-190.5"/>
+				</g>
+				<g transform="matrix(0.669607,-0.0155233,0.00757268,1.47718,608.308,-332.582)">
+					<path class="st2" d="M1694,1054.3l117.8,187.8"/>
+				</g>
+				<g transform="matrix(1.07362,0.00541833,0.00777117,1.00057,-100.548,-231.929)">
+					<path class="st3" d="M1350.8,1391.4l363.1,28.6"/>
+				</g>
+				<g transform="matrix(0.6217,0.0314732,-0.0685741,0.77718,720.108,172.113)">
+					<polygon class="st4" points="1373.6,1210.9 1655.3,1211.7 1655.7,1271.7 1374,1271 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,316 @@
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Serif:wght@400;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+// @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+$large: 1000px;
+$medium: 768px;
+$small: 576px;
+$font1: "PT Serif", serif;
+$font2: "Raleway", sans-serif;
+
+.nav-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  // color: #004466;
+}
+
+// shop
+.chocolate-text {
+  font-family: "PT Serif", serif;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.price {
+  font-family: "PT Serif", serif;
+  font-size: 1.1rem;
+  margin: 0.3rem 0;
+  text-align: center;
+  font-weight: 500;
+}
+.chocolate-info {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 400;
+  margin: 0;
+}
+
+//Landing page
+.header-titler {
+  font-family: "Raleway", sans-serif;
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 90px 250px 10px 70px;
+  @media (max-width: 1400px) {
+    font-size: 4rem;
+  }
+  @media (max-width: 992px) {
+    font-size: 3rem;
+  }
+  @media (max-width: 767px) {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0;
+  }
+}
+// carousel
+.carousel-body {
+  font-family: "Raleway", sans-serif;
+  padding: 10px 100px 10px 70px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  @media (max-width: 767px) {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+.circle {
+  font-family: "PT Serif", serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding: 1rem;
+  @media (max-width: 1100px) {
+    font-size: 1.5rem;
+  }
+  @media (max-width: 600px) {
+    font-size: 1.3rem;
+  }
+}
+
+.banner-heading {
+  text-transform: uppercase;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 4.5rem;
+  @media (max-width: 1100px) {
+    font-size: 3rem;
+  }
+  @media (max-width: $small) {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  &:nth-child(2) {
+    font-size: 3rem;
+    @media (max-width: 1100px) {
+      font-size: 2rem;
+    }
+    @media (max-width: $small) {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.banner-heading-chocolate {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+
+  font-weight: 700;
+  font-size: 2.1rem;
+  @media (min-width: $medium) {
+    font-size: 1.8rem;
+  }
+}
+
+.ing-body-text {
+  @media (min-width: $medium) {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 1.35rem;
+  }
+  @media (max-width: $small) {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin: 20px 0px;
+  }
+}
+
+//Cards
+.ing-card-header {
+  @media (min-width: $medium) {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  @media (max-width: $small) {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 10px 0px;
+  }
+}
+
+.ing-card-text {
+  @media (min-width: $medium) {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+  @media (max-width: $small) {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin: 20px 0px;
+  }
+}
+
+//Receipe Fonts
+.receipe-heading {
+  text-transform: uppercase;
+  @media (min-width: $medium) {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    // margin-right: 50px;
+  }
+  @media (max-width: $small) {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2.5rem 0px;
+    margin: 50px 0px;
+  }
+}
+
+//Mision
+.mission-header {
+  font-family: $font1;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  margin: 1rem 7.5rem;
+  padding: 3rem 0 1rem 0;
+  @media (max-width: 600px) {
+    margin: 1rem 2rem;
+    
+  }
+}
+
+.mission-impact {
+  font-family: $font1;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.9;
+  padding-bottom: 2rem;
+
+  h3 {
+    color: red;
+    font-weight: 800;
+    font-size: 1.4rem;
+    text-transform: lowercase;
+    margin-top: 3rem;
+  }
+
+}    
+.mission-impact:nth-child(3) {
+  margin: 1rem 7.5rem;
+  line-height: 1.2rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.06rem;
+  line-height: 1.9rem;
+  @media (max-width: 600px) {
+    margin: 1rem 2rem;
+    
+  } 
+  h3 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+
+  }
+}
+.mission-impact:not(:nth-child(3)) {
+  text-align: start;
+  margin: 0 2rem;
+  line-height: 1.4rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.07rem;
+  font-weight: 400;
+  h3 {
+    font-family: $font1;
+    font-weight: 800;
+    font-size: 1.75rem;
+  }
+}
+
+.tonys-impact {
+  font-family: $font1;
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 900;
+  color: white;
+}
+
+.mission-partner {
+  font-family: $font1;
+  line-height: 1.2rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.06rem;
+  font-weight: 400;
+  background-color: #0073bc;
+  color: white;
+  justify-self: center;
+  align-self: center;
+  h5 {
+    font-weight: 800;
+  }
+}
+
+.mission-attend {
+  font-family: $font1;
+  font-weight: 500;
+  font-size: 1.1rem;
+  p {
+    background-color: #0073bc;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    clip-path: polygon(6% 5%, 100% 0, 94% 95%, 0 100%);
+  }
+}
+//cart
+.cart-amount {
+  font-family: $font1;
+  font-size: 1.4rem;
+  // margin-right: 1.5rem;
+  // margin-bottom: 1rem;
+  // padding: 1.5px;
+}
+
+// footer
+.footer-text-header {
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.favorites-header {
+  text-align: center;
+  margin: 2.5rem 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  font-size: 3.5rem;
+  @media (max-width: 1300px) {
+    font-size: 2.5rem;
+  }
+}
+
+.footer-links {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+}
