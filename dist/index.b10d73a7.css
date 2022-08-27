@@ -792,7 +792,7 @@
   content: "";
 }
 
-.fa-bahai:before {
+.fa-bahai:before, .fa-haykal:before {
   content: "";
 }
 
@@ -986,6 +986,10 @@
 
 .fa-book-skull:before, .fa-book-dead:before {
   content: "";
+}
+
+.fa-book-tanakh:before, .fa-tanakh:before {
+  content: "";
 }
 
 .fa-bookmark:before {
@@ -1210,6 +1214,10 @@
 
 .fa-c:before {
   content: "C";
+}
+
+.fa-cable-car:before, .fa-tram:before {
+  content: "";
 }
 
 .fa-cake-candles:before, .fa-birthday-cake:before, .fa-cake:before {
@@ -2385,7 +2393,7 @@
 }
 
 .fa-file-circle-check:before {
-  content: "";
+  content: "";
 }
 
 .fa-file-circle-exclamation:before {
@@ -2397,7 +2405,7 @@
 }
 
 .fa-file-circle-plus:before {
-  content: "";
+  content: "";
 }
 
 .fa-file-circle-question:before {
@@ -2405,7 +2413,7 @@
 }
 
 .fa-file-circle-xmark:before {
-  content: "";
+  content: "";
 }
 
 .fa-file-code:before {
@@ -3076,16 +3084,16 @@
   content: "";
 }
 
-.fa-hourglass:before, .fa-hourglass-2:before, .fa-hourglass-half:before {
+.fa-hourglass:before, .fa-hourglass-empty:before {
   content: "";
-}
-
-.fa-hourglass-empty:before {
-  content: "";
 }
 
 .fa-hourglass-end:before, .fa-hourglass-3:before {
   content: "";
+}
+
+.fa-hourglass-half:before, .fa-hourglass-2:before {
+  content: "";
 }
 
 .fa-hourglass-start:before, .fa-hourglass-1:before {
@@ -3824,6 +3832,10 @@
   content: "";
 }
 
+.fa-notdef:before {
+  content: "";
+}
+
 .fa-note-sticky:before, .fa-sticky-note:before {
   content: "";
 }
@@ -3956,7 +3968,7 @@
   content: "";
 }
 
-.fa-people-arrows-left-right:before, .fa-people-arrows:before {
+.fa-people-arrows:before, .fa-people-arrows-left-right:before {
   content: "";
 }
 
@@ -4149,7 +4161,7 @@
 }
 
 .fa-person-through-window:before {
-  content: "";
+  content: "";
 }
 
 .fa-person-walking:before, .fa-walking:before {
@@ -4257,7 +4269,7 @@
 }
 
 .fa-plant-wilt:before {
-  content: "";
+  content: "";
 }
 
 .fa-plate-wheat:before {
@@ -4976,7 +4988,7 @@
   content: "";
 }
 
-.fa-staff-aesculapius:before, .fa-rod-asclepius:before, .fa-rod-snake:before, .fa-staff-snake:before {
+.fa-staff-snake:before, .fa-rod-asclepius:before, .fa-rod-snake:before, .fa-staff-aesculapius:before {
   content: "";
 }
 
@@ -4986,6 +4998,10 @@
 
 .fa-stamp:before {
   content: "";
+}
+
+.fa-stapler:before {
+  content: "";
 }
 
 .fa-star:before {
@@ -5360,8 +5376,8 @@
   content: "";
 }
 
-.fa-train-tram:before, .fa-tram:before {
-  content: "";
+.fa-train-tram:before {
+  content: "";
 }
 
 .fa-transgender:before, .fa-transgender-alt:before {
@@ -6081,10 +6097,6 @@
   content: "";
 }
 
-.fa-behance-square:before {
-  content: "";
-}
-
 .fa-bilibili:before {
   content: "";
 }
@@ -6417,10 +6429,6 @@
   content: "";
 }
 
-.fa-dribbble-square:before {
-  content: "";
-}
-
 .fa-dropbox:before {
   content: "";
 }
@@ -6499,10 +6507,6 @@
 
 .fa-facebook-messenger:before {
   content: "";
-}
-
-.fa-facebook-square:before {
-  content: "";
 }
 
 .fa-fantasy-flight-games:before {
@@ -6621,20 +6625,12 @@
   content: "";
 }
 
-.fa-git-square:before {
-  content: "";
-}
-
 .fa-github:before {
   content: "";
 }
 
 .fa-github-alt:before {
   content: "";
-}
-
-.fa-github-square:before {
-  content: "";
 }
 
 .fa-gitkraken:before {
@@ -6697,10 +6693,6 @@
   content: "";
 }
 
-.fa-google-plus-square:before {
-  content: "";
-}
-
 .fa-google-wallet:before {
   content: "";
 }
@@ -6731,10 +6723,6 @@
 
 .fa-hacker-news:before {
   content: "";
-}
-
-.fa-hacker-news-square:before {
-  content: "";
 }
 
 .fa-hackerrank:before {
@@ -6791,10 +6779,6 @@
 
 .fa-instagram:before {
   content: "";
-}
-
-.fa-instagram-square:before {
-  content: "";
 }
 
 .fa-instalod:before {
@@ -6857,10 +6841,6 @@
   content: "";
 }
 
-.fa-js-square:before {
-  content: "";
-}
-
 .fa-jsfiddle:before {
   content: "";
 }
@@ -6895,10 +6875,6 @@
 
 .fa-lastfm:before {
   content: "";
-}
-
-.fa-lastfm-square:before {
-  content: "";
 }
 
 .fa-leanpub:before {
@@ -6985,6 +6961,10 @@
   content: "";
 }
 
+.fa-meta:before {
+  content: "";
+}
+
 .fa-microblog:before {
   content: "";
 }
@@ -7063,10 +7043,6 @@
 
 .fa-odnoklassniki:before {
   content: "";
-}
-
-.fa-odnoklassniki-square:before {
-  content: "";
 }
 
 .fa-old-republic:before {
@@ -7161,20 +7137,12 @@
   content: "";
 }
 
-.fa-pied-piper-square:before {
-  content: "";
-}
-
 .fa-pinterest:before {
   content: "";
 }
 
 .fa-pinterest-p:before {
   content: "";
-}
-
-.fa-pinterest-square:before {
-  content: "";
 }
 
 .fa-pix:before {
@@ -7247,10 +7215,6 @@
 
 .fa-reddit-alien:before {
   content: "";
-}
-
-.fa-reddit-square:before {
-  content: "";
 }
 
 .fa-redhat:before {
@@ -7381,16 +7345,16 @@
   content: "";
 }
 
-.fa-snapchat-square:before {
-  content: "";
-}
-
 .fa-soundcloud:before {
   content: "";
 }
 
 .fa-sourcetree:before {
   content: "";
+}
+
+.fa-space-awesome:before {
+  content: "";
 }
 
 .fa-speakap:before {
@@ -7405,12 +7369,108 @@
   content: "";
 }
 
+.fa-square-behance:before, .fa-behance-square:before {
+  content: "";
+}
+
+.fa-square-dribbble:before, .fa-dribbble-square:before {
+  content: "";
+}
+
+.fa-square-facebook:before, .fa-facebook-square:before {
+  content: "";
+}
+
 .fa-square-font-awesome:before {
-  content: "";
+  content: "";
 }
 
 .fa-square-font-awesome-stroke:before, .fa-font-awesome-alt:before {
   content: "";
+}
+
+.fa-square-git:before, .fa-git-square:before {
+  content: "";
+}
+
+.fa-square-github:before, .fa-github-square:before {
+  content: "";
+}
+
+.fa-square-gitlab:before, .fa-gitlab-square:before {
+  content: "";
+}
+
+.fa-square-google-plus:before, .fa-google-plus-square:before {
+  content: "";
+}
+
+.fa-square-hacker-news:before, .fa-hacker-news-square:before {
+  content: "";
+}
+
+.fa-square-instagram:before, .fa-instagram-square:before {
+  content: "";
+}
+
+.fa-square-js:before, .fa-js-square:before {
+  content: "";
+}
+
+.fa-square-lastfm:before, .fa-lastfm-square:before {
+  content: "";
+}
+
+.fa-square-odnoklassniki:before, .fa-odnoklassniki-square:before {
+  content: "";
+}
+
+.fa-square-pied-piper:before, .fa-pied-piper-square:before {
+  content: "";
+}
+
+.fa-square-pinterest:before, .fa-pinterest-square:before {
+  content: "";
+}
+
+.fa-square-reddit:before, .fa-reddit-square:before {
+  content: "";
+}
+
+.fa-square-snapchat:before, .fa-snapchat-square:before {
+  content: "";
+}
+
+.fa-square-steam:before, .fa-steam-square:before {
+  content: "";
+}
+
+.fa-square-tumblr:before, .fa-tumblr-square:before {
+  content: "";
+}
+
+.fa-square-twitter:before, .fa-twitter-square:before {
+  content: "";
+}
+
+.fa-square-viadeo:before, .fa-viadeo-square:before {
+  content: "";
+}
+
+.fa-square-vimeo:before, .fa-vimeo-square:before {
+  content: "";
+}
+
+.fa-square-whatsapp:before, .fa-whatsapp-square:before {
+  content: "";
+}
+
+.fa-square-xing:before, .fa-xing-square:before {
+  content: "";
+}
+
+.fa-square-youtube:before, .fa-youtube-square:before {
+  content: "";
 }
 
 .fa-squarespace:before {
@@ -7435,10 +7495,6 @@
 
 .fa-steam:before {
   content: "";
-}
-
-.fa-steam-square:before {
-  content: "";
 }
 
 .fa-steam-symbol:before {
@@ -7537,20 +7593,12 @@
   content: "";
 }
 
-.fa-tumblr-square:before {
-  content: "";
-}
-
 .fa-twitch:before {
   content: "";
 }
 
 .fa-twitter:before {
   content: "";
-}
-
-.fa-twitter-square:before {
-  content: "";
 }
 
 .fa-typo3:before {
@@ -7621,20 +7669,12 @@
   content: "";
 }
 
-.fa-viadeo-square:before {
-  content: "";
-}
-
 .fa-viber:before {
   content: "";
 }
 
 .fa-vimeo:before {
   content: "";
-}
-
-.fa-vimeo-square:before {
-  content: "";
 }
 
 .fa-vimeo-v:before {
@@ -7679,10 +7719,6 @@
 
 .fa-whatsapp:before {
   content: "";
-}
-
-.fa-whatsapp-square:before {
-  content: "";
 }
 
 .fa-whmcs:before {
@@ -7737,7 +7773,7 @@
   content: "";
 }
 
-.fa-wpressr:before {
+.fa-wpressr:before, .fa-rendact:before {
   content: "";
 }
 
@@ -7747,10 +7783,6 @@
 
 .fa-xing:before {
   content: "";
-}
-
-.fa-xing-square:before {
-  content: "";
 }
 
 .fa-y-combinator:before {
@@ -7787,10 +7819,6 @@
 
 .fa-youtube:before {
   content: "";
-}
-
-.fa-youtube-square:before {
-  content: "";
 }
 
 .fa-zhihu:before {
@@ -10745,6 +10773,7 @@ textarea.form-control-lg {
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
+  -webkit-user-select: none;
   user-select: none;
   border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
   border-radius: var(--bs-btn-border-radius);
@@ -13300,6 +13329,7 @@ textarea.form-control-lg {
 
 .btn-close:disabled, .btn-close.disabled {
   pointer-events: none;
+  -webkit-user-select: none;
   user-select: none;
   opacity: .25;
 }
@@ -14827,12 +14857,15 @@ textarea.form-control-lg {
 
 .placeholder-wave {
   animation: placeholder-wave 2s linear infinite;
+  -webkit-mask-image: linear-gradient(130deg, #000 55%, #000c 75%, #000 95%);
   mask-image: linear-gradient(130deg, #000 55%, #000c 75%, #000 95%);
+  -webkit-mask-size: 200% 100%;
   mask-size: 200% 100%;
 }
 
 @keyframes placeholder-wave {
   100% {
+    -webkit-mask-position: -200% 0;
     mask-position: -200% 0;
   }
 }
@@ -16412,14 +16445,17 @@ textarea.form-control-lg {
 }
 
 .user-select-all {
+  -webkit-user-select: all !important;
   user-select: all !important;
 }
 
 .user-select-auto {
+  -webkit-user-select: auto !important;
   user-select: auto !important;
 }
 
 .user-select-none {
+  -webkit-user-select: none !important;
   user-select: none !important;
 }
 
