@@ -312,3 +312,4 @@ Array.from(starSystem).forEach((el) => {
 </div>
 `;
 });
+ 
