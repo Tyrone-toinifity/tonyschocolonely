@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tony's Chocolonely</title>
+
+    <link rel="shortcut icon" href="/favicon.277a906c.ico" type="image/png">
+    <link rel="stylesheet" href="/index.b10d73a7.css"><script defer="" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script src="/index.18dbc454.js" defer=""></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-Secondary bg-opacity-10 px-4 py-3" role="navigation">
+      <a href="/index.html" class="navbar-brand d-none d-md-block"><img class="" src="/Tonys-logo.0f592105.svg" width="125px" alt="Tonys Chocolonely"></a>
+
+      <!-- mobile burger menu -->
+      <button class="navbar-toggler collapsed d-md-none ps-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Offcanvas -->
+      <div class="offcanvas offcanvas-start p-3" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <button type="button" class="btn-close text-reset p-2 mb-2 rounded-circle d-sm-block d-md-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+        <form class="d-flex mb-2">
+          <input class="form-control rounded-0 d-sm-block d-md-none" type="search" placeholder="Search " aria-label="Search">
+          <button class="btn px-auto rounded-0 d-sm-block d-md-none btn-search" type="submit">
+            <img src="/Tony's-search-blk.a880fe5b.svg" alt="search" width="50px">
+          </button>
+
+          <!-- navbar links -->
+        </form>
+        <div class="offcanvas-body m-0" id="#offcanvasNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="#" class="nav-link">
+                <h4 class="nav-text" aria-current="shop">shop</h4>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a href="/ingredients.html" class="nav-link" aria-current="about us"><h4 class="nav-text" aria-current="ingredients">
+                  ingredients
+                </h4></a>
+            </li>
+            <li class="nav-item active">
+              <a href="/mission.html" class="nav-link" aria-current="our mission"><h4 class="nav-text" aria-current="our mission">
+                  our mission
+                </h4></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <a href="/index.html" class="d-sm-block d-md-none ms-3"><img class="" src="/Tonys-logo.0f592105.svg" width="70px" alt="Tonys Chocolonely"></a>
+
+      <!-- Desktop -->
+      <button type="button" class="btn login-icon p-3" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: none">
+        <img src="/Tonys-login-blue.71ce29b0.svg" alt="login" width="40px">
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">log in</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Pills navs -->
+              <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active" id="tab-login" data-mdb-toggle="pill" href="#pills-login" role="tab" aria-controls="pills-login" aria-selected="true">Login</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="tab-register" data-mdb-toggle="pill" href="#pills-register" role="tab" aria-controls="pills-register" aria-selected="false">Register</a>
+                </li>
+              </ul>
+
+              <!-- Pills content -->
+              <div class="tab-content">
+                <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+                  <form>
+                    <div class="text-center mb-3">
+                      <p>Sign in</p>
+                    </div>
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                      <input type="email" id="loginName" class="form-control">
+                      <label class="form-label" for="loginName">Email or username</label>
+                    </div>
+
+                    <!-- Password input -->
+                    <div class="form-outline mb-4">
+                      <input type="password" id="loginPassword" class="form-control">
+                      <label class="form-label" for="loginPassword">Password</label>
+                    </div>
+
+                    <!-- 2 column grid layout -->
+                    <div class="row mb-4">
+                      <div class="col-md-6 d-flex justify-content-center">
+                        <!-- Checkbox -->
+                        <div class="form-check mb-3 mb-md-0">
+                          <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked="">
+                          <label class="form-check-label" for="loginCheck">
+                            Remember me
+                          </label>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6 d-flex justify-content-center">
+                        <!-- Simple link -->
+                        <a href="#!">Forgot password?</a>
+                      </div>
+                    </div>
+
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary btn-block mb-4">
+                      Sign in
+                    </button>
+
+                    <!-- Register buttons -->
+                    <div class="text-center">
+                      <p>Not a member? <a href="#!">Register</a></p>
+                    </div>
+                  </form>
+                </div>
+                <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+                  <form>
+                    <div class="text-center mb-3">
+                      <p>Sign up with:</p>
+                      <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-facebook-f"></i>
+                      </button>
+
+                      <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-google"></i>
+                      </button>
+
+                      <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-twitter"></i>
+                      </button>
+
+                      <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-github"></i>
+                      </button>
+                    </div>
+
+                    <p class="text-center">or:</p>
+
+                    <!-- Name input -->
+                    <div class="form-outline mb-4">
+                      <input type="text" id="registerName" class="form-control">
+                      <label class="form-label" for="registerName">Name</label>
+                    </div>
+
+                    <!-- Username input -->
+                    <div class="form-outline mb-4">
+                      <input type="text" id="registerUsername" class="form-control">
+                      <label class="form-label" for="registerUsername">Username</label>
+                    </div>
+
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                      <input type="email" id="registerEmail" class="form-control">
+                      <label class="form-label" for="registerEmail">Email</label>
+                    </div>
+
+                    <!-- Password input -->
+                    <div class="form-outline mb-4">
+                      <input type="password" id="registerPassword" class="form-control">
+                      <label class="form-label" for="registerPassword">Password</label>
+                    </div>
+
+                    <!-- Repeat Password input -->
+                    <div class="form-outline mb-4">
+                      <input type="password" id="registerRepeatPassword" class="form-control">
+                      <label class="form-label" for="registerRepeatPassword">Repeat password</label>
+                    </div>
+
+                    <!-- Checkbox -->
+                    <div class="form-check d-flex justify-content-center mb-4">
+                      <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked="" aria-describedby="registerCheckHelpText">
+                      <label class="form-check-label" for="registerCheck">
+                        I have read and agree to the terms
+                      </label>
+                    </div>
+
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary btn-block mb-3">
+                      Sign in
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="nav-link d-none d-md-block pe-3">
+        <img src="/Tony's-search-blk.a880fe5b.svg" alt="search" width="30px"></a>
+    </nav>
+
+    <!-- Cart -->
+    <div class="cart-flexbox">
+      <div class="cart-container">
+        <a href="/cart.html">
+          <img class="cart" src="/Tony's-cart.32ba5ba8.svg" alt="cart" width="55px">
+
+          <img class="cart" src="/Tony's-cart2.155c8c35.svg" alt="cart" width="55px">
+        </a>
+
+        <div class="cart-amount">200</div>
+      </div>
+    </div>
+    <!-- Product List -->
+    <div class="container shop" id="shop">
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-4 col-xl-3 chocolate-bar-container">
+          <a href="#" class="i">
+            <img srcset="/Tonys-ch-13.1e4fbf1a.png" width="100%" class="chocolate-bar mt-3"> </a><br>
+          <p class="chocolate-text">milk chocolate 32%</p>
+          <div class="ratings-container mb-4">
+            
+          </div>
+          <p class="chocolate-info">
+            Smooth milk chocolate for a classic treat
+          </p>
+          <div class="float-center price">$5.95</div>
+          <div class="float-end">
+            <a href="#" class="">
+              <img class="add-to-cart" src="/Tony's-cart–white.7c889c33.svg" alt="cart" width="50px" height="50px">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 chocolate-bar-container">
+          <a href="#" class="">
+            <img src="/Tonys-ch-9.97687122.png" width="100%" class="chocolate-bar mt-3" alt=""> </a><br>
+          <p class="chocolate-text">milk chocolate sea salt 32%</p>
+          <div class="ratings-container mb-4"></div>
+          <p class="chocolate-info">
+            Caramel dances with Sea Salt in our milk chocolate for sweet and
+            salty perfection.
+          </p>
+          <div class="float-center price">$5.95</div>
+
+          <div class="float-end">
+            <a href="#">
+              <img class="add-to-cart" src="/Tony's-cart–white.7c889c33.svg" alt="cart" width="50px" "="" height="50px">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 chocolate-bar-container">
+          <a href="#" class="">
+            <img src="/Tonys-ch-4.111bf438.png" width="100%" class="chocolate-bar mt-3" alt=""> </a><br>
+          <p class="chocolate-text">dark milk chocolate 42%</p>
+          <div class="ratings-container mb-4"></div>
+          <p class="chocolate-info">
+            Smooth and <b>Bold</b>, a modern take on dark chocolate with a
+            creamy layered of milk.
+          </p>
+          <div class="float-center price">$5.95</div>
+
+          <div class="float-end">
+            <a href="#">
+              <img class="add-to-cart" src="/Tony's-cart–white.7c889c33.svg" alt="cart" width="50px" "="" height="50px">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 chocolate-bar-container">
+          <a href="#" class="">
+            <img src="/Tonys-ch-7.1a85b739.png" width="100%" class="chocolate-bar mt-3" alt=""> </a><br>
+          <p class="chocolate-text">white raspberry 28%</p>
+          <div class="ratings-container mb-4"></div>
+          <p class="chocolate-info">
+            White chocolate infused with juicy raspberries for a wondrous bite.
+          </p>
+          <div class="float-center price">$5.95</div>
+
+          <div class="float-end">
+            <a href="#">
+              <img class="add-to-cart" src="/Tony's-cart–white.7c889c33.svg" alt="cart" width="50px" "="" height="50px">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 chocolate-bar-container">
+          <a href="#" class="">
+            <img src="/Tonys-ch-1.441a6b92.png" width="100%" class="chocolate-bar mt-3" alt=""> </a><br>
+          <p class="chocolate-text">
+            dark chocolate cocoa cookie citrusy caramel 51%
+          </p>
+          <div class="ratings-container mb-4"></div>
+          <p class="chocolate-info">
+            <em>Fruity</em>, Crunchy, cistrus-spiked cameral and crispy dark
+            chocolate.
+          </p>
+          <div class="float-center price">$5.95</div>
+
+          <div class="float-end">
+            <a href="#">
+              <img class="add-to-cart" src="/Tony's-cart–white.7c889c33.svg" alt="cart" width="50px" "="" height="50px">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 chocolate-bar-container">
+          <a href="#" class="">
+            <img src="/Tonys-ch-5.5e9c6f5a.png" width="100%" class="chocolate-bar mt-3" alt=""> </a><br>
+          <p class="chocolate-text">milk honey almond nougat 32%</p>
+          <div class="ratings-container mb-4"></div>
+          <p class="chocolate-info">
+            Crunchy almond nougat warped in soft honey and milk chocolate.
+          </p>
+          <div class="float-center price">$5.95</div>
+
+          <div class="float-end">
+            <a href="#">
+              <img class="add-to-cart" src="/Tony's-cart–white.7c889c33.svg" alt="cart" width="50px" "="" height="50px">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 chocolate-bar-container">
+          <a href="#" class="">
+            <img src="/Tonys-ch-3.2a0d7a33.png" width="100%" class="chocolate-bar mt-3" alt=""> </a><br>
+          <p class="chocolate-text">milk hazelnut cookie 32%</p>
+          <div class="ratings-container mb-4"></div>
+          <p class="chocolate-info">
+            Hazelnut cookie paired with a our classic milk chocolate.
+          </p>
+          <div class="float-center price">$5.95</div>
+
+          <div class="float-end">
+            <a href="#">
+              <img class="add-to-cart" src="/Tony's-cart–white.7c889c33.svg" alt="cart" width="50px" "="" height="50px">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 chocolate-bar-container">
+          <a href="#" class="">
+            <img src="/Tonys-ch-6.680f07ee.png" width="100%" class="chocolate-bar mt-3" alt=""> </a><br>
+          <p class="chocolate-text">dark milk pretzel 42%</p>
+          <div class="ratings-container mb-4"></div>
+          <p class="chocolate-info">
+            Dark milk chocolate with crispy of salted pretzel.
+          </p>
+          <div class="float-center price">$5.95</div>
+
+          <div class="float-end">
+            <a href="#">
+              <img class="add-to-cart" src="/Tony's-cart–white.7c889c33.svg" alt="cart" width="50px" "="" height="50px">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 chocolate-bar-container">
+          <a href="#" class="">
+            <img src="/Tonys-ch-14.530dbb52.png" width="100%" class="chocolate-bar mt-3" alt=""> </a><br>
+          <p class="chocolate-text">milk wafer cookie 32%</p>
+          <div class="ratings-container mb-4"></div>
+          <p class="chocolate-info">
+            <em>Thin</em> crispy wafer covered in our classic milk chocolate.
+          </p>
+          <div class="float-center price">$5.95</div>
+
+          <div class="float-end">
+            <a href="#">
+              <img class="add-to-cart" src="/Tony's-cart–white.7c889c33.svg" alt="cart" width="50px" "="" height="50px">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 chocolate-bar-container">
+          <a href="#" class="">
+            <img src="/Tonys-ch-12.adc4482b.png" width="100%" class="chocolate-bar mt-3" alt=""> </a><br>
+          <p class="chocolate-text">milk hazelnut 32%</p>
+          <div class="ratings-container mb-4"></div>
+          <p class="chocolate-info">
+            Milk chocolate with luscious pockets of hazelnut.
+          </p>
+          <div class="float-center price">$5.95</div>
+          <div class="float-end">
+            <a href="#">
+              <img class="add-to-cart" src="/Tony's-cart–white.7c889c33.svg" alt="cart" width="50px" "="" height="50px">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 chocolate-bar-container">
+          <a href="#" class="">
+            <img src="/Tonys-ch-2.6799114d.png" width="100%" class="chocolate-bar mt-3" alt=""> </a><br>
+          <p class="chocolate-text">milk caramel cookie 32%</p>
+          <div class="ratings-container mb-4"></div>
+          <p class="chocolate-info">
+            Velvet milk chocolate with caramel cookie.
+          </p>
+          <div class="float-center price">$5.95</div>
+          <div class="float-end">
+            <a href="#">
+              <img class="add-to-cart" src="/Tony's-cart–white.7c889c33.svg" alt="cart" width="50px" "="" height="50px">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 chocolate-bar-container">
+          <a href="#" class="">
+            <img src="/Tonys-ch-8.f462fb13.png" width="100%" class="chocolate-bar mt-3" alt=""> </a><br>
+          <p class="chocolate-text">dark almond sea salt 51%</p>
+
+          <div class="ratings-container mb-4"></div>
+          <p class="chocolate-info">
+            Dark chocolate takes on a satisfying taste with sea salt
+          </p>
+          <div class="float-center price">$5.95</div>
+
+          <div class="float-end">
+            <a href="#">
+              <img class="add-to-cart" src="/Tony's-cart–white.7c889c33.svg" alt="cart" width="50px" "="" height="50px">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid main-footer py-4 mt-5">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+            <h5 class="footer-text-header pt-3">
+              crazy about chocolate serious about people
+            </h5>
+            <div class="footer-img-parent d-none d-md-block">
+              <img src="/Tonys-ch-13.1e4fbf1a.png" class="mt-4 footer-img" width="180px" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+            <h5 class="footer-text-header pt-3">our story</h5>
+            <p class="mt-4 footer-links">
+              our mission <br>
+              our impact
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+            <h5 class="footer-text-header pt-3">join us</h5>
+            <p class="mt-4 footer-links">be apart of the team</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+            <h5 class="footer-text-header pt-3">coca shop</h5>
+            <p class="mt-4 footer-links">shop</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+            <h5 class="footer-text-header pt-3">history</h5>
+            <p class="mt-4 footer-links">The story of cocoa</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+            <h5 class="footer-text-header pt-3">social</h5>
+            <div class="mt-4 footer-links">
+              <a href="https://twitter.com/TonysChocoUS/">
+                <i class="fa-brands fa-twitter fa-xl align-self-center" style="color: #fff"></i></a>
+              <a href="https://www.facebook.com/TonysChocolonelyUS/">
+                <i class="fa-brands fa-facebook fa-xl" style="color: #fff"></i>
+              </a>
+              <a href="https://www.instagram.com/tonyschocolonely_us/">
+                <i class="fa-brands fa-instagram fa-xl" style="color: #fff"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

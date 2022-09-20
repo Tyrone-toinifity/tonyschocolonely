@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:serif="http://www.serif.com/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 792" style="enable-background: new 0 0 612 792" xml:space="preserve">
+<style>.st0 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #0075c2;
+  stroke: #0075c2;
+  stroke-width: 22.04px;
+  stroke-linecap: round;
+  stroke-miterlimit: 3;
+}
+
+.st1 {
+  fill: none;
+  stroke: #0075c2;
+  stroke-width: 24.5px;
+  stroke-linecap: round;
+  stroke-miterlimit: 3;
+}
+
+.st2 {
+  fill: none;
+  stroke: #0075c2;
+  stroke-width: 30.65px;
+  stroke-linecap: round;
+  stroke-miterlimit: 3;
+}
+
+.st3 {
+  fill: none;
+  stroke: #0075c2;
+  stroke-width: 28.32px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 3;
+}
+
+.st4 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #0075c2;
+  stroke: #0075c2;
+  stroke-width: 14.09px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 3;
+}
+
+</style>
+<g id="_1" transform="matrix(3.79775,0,0,4.07446,-720.946,-794.539)" serif:id="1">
+	<g transform="matrix(0.101247,0,0,0.0927569,83.4165,146.589)">
+		<g id="Basket">
+			<path class="st0" d="M2465.8,1367.6l-1237.9-62.4l32.6,1016.8H2462L2465.8,1367.6z"></path>
+		</g>
+	</g>
+	<g id="Handle" transform="matrix(-0.121162,0,0,0.145103,447.023,73.566)">
+		<g transform="matrix(0.660803,0.150582,-0.165002,1.26232,688.264,-409.981)">
+			<path class="st1" d="M855.6,1331.1l178.1-262.8"></path>
+		</g>
+		<g transform="matrix(0.636865,-0.153084,0.177692,1.13732,469.278,236.783)">
+			<path class="st2" d="M1689.7,1014.9l172.3,257.8"></path>
+		</g>
+		<g transform="matrix(1,-1.26143e-16,-2.19857e-16,1,-8.35937,-209.5)">
+			<path class="st3" d="M1203.4,1302.8l530.7,39.1"></path>
+		</g>
+		<g transform="matrix(0.6217,0.0314732,-0.0685741,0.77718,659.749,183.314)">
+			<polygon class="st4" points="1207.7,1097.5 1619.3,1097.5 1619.3,1180 1207.7,1180 			"></polygon>
+		</g>
+	</g>
+</g>
+</svg>
