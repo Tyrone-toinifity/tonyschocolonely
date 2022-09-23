@@ -1,5 +1,5 @@
 {
-  "name": "code",
+  "name": "code2",
   "version": "1.0.0",
   "description": "tonys_chocolonely",
   "source": "./index.html",
@@ -10,15 +10,12 @@
   "author": "Bobby Woody",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^10.4.11",
     "bootstrap": "^5.2.1",
-    "cacache": "^16.1.3",
-    "cssnano": "^5.1.13",
-    "postcss": "^8.4.16"
+    "parcel": "^2.7.0",
+    "sass": "^1.55.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
-    "parcel": "^2.7.0",
-    "sass": "^1.54.9"
+    "sharp": "^0.29.3"
   }
 }

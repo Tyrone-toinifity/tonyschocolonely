@@ -533,6 +533,6 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"kETsX":[function(require,module,exports) {
 
-},{}]},["i6ih1","kETsX"], "kETsX", "parcelRequireb88e")
+},{}]},["i6ih1","kETsX"], "kETsX", "parcelRequire4ab2")
 
 //# sourceMappingURL=ingredients.049f1bc1.js.map

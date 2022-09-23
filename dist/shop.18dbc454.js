@@ -552,6 +552,6 @@ Array.from(starSystem).forEach((el)=>{
 `;
 });
 
-},{}]},["jQVXF","1SICI"], "1SICI", "parcelRequireb88e")
+},{}]},["jQVXF","1SICI"], "1SICI", "parcelRequire4ab2")
 
 //# sourceMappingURL=shop.18dbc454.js.map
