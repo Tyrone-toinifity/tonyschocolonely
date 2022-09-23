@@ -1,11 +1,6 @@
 @use "~bootstrap/scss/bootstrap";
 @use "./typography";
 
-@import url("../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss");
-@import url("../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss");
-@import url("../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss");
-@import url("../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss");
-
 $large: 1000px;
 $medium: 800px;
 $small: 576px;
@@ -131,7 +126,6 @@ a .cart:last-child {
   transform: rotate(5deg);
 }
 
-// TODO fix star system
 // Start System
 .ratings-container {
   display: flex;
