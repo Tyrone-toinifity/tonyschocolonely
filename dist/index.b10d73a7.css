@@ -12536,7 +12536,7 @@ input:not(:checked) ~ label:hover, input:not(:checked) ~ label:hover ~ label, in
 
 @media (min-width: 800px) {
   .background-cocoa {
-    background-image: url("ing-background3.7fe4e624.jpg");
+    background-image: url("ing-background.b946880c.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -12546,7 +12546,7 @@ input:not(:checked) ~ label:hover, input:not(:checked) ~ label:hover ~ label, in
 
 @media (max-width: 576px) {
   .background-cocoa {
-    background-image: url("ing-background3.7fe4e624.jpg");
+    background-image: url("ing-background.b946880c.jpg");
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -12893,4 +12893,4 @@ input:not(:checked) ~ label:hover, input:not(:checked) ~ label:hover ~ label, in
   background-color: #0073bc;
 }
 
-/*# sourceMappingURL=ingredients.b10d73a7.css.map */
+/*# sourceMappingURL=index.b10d73a7.css.map */

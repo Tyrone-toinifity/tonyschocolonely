@@ -1,4 +1,5 @@
-import "./../scss/main.scss";
+// import "./../scss/main.scss";
+import * as bootstrap from "bootstrap";
 
 // Star rating system
 const starSystem = document.querySelectorAll(".ratings-container");
@@ -19,4 +20,3 @@ Array.from(starSystem).forEach((el) => {
 </div>
 `;
 });
- 

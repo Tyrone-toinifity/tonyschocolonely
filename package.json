@@ -10,6 +10,8 @@
   "author": "Bobby Woody",
   "license": "ISC",
   "dependencies": {
+    "@parcel/resolver-glob": "^2.7.0",
+    "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.1",
     "parcel": "^2.7.0",
     "sass": "^1.55.0"

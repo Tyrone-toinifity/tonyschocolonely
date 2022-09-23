@@ -198,14 +198,14 @@ input:checked ~ label {
 
 .background-cocoa {
   @media (min-width: $medium) {
-    background-image: url(../assets/ing-background3.jpg);
+    background-image: url(../assets/ing-background.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     padding: 80px;
   }
   @media (max-width: $small) {
-    background-image: url(../assets/ing-background3.jpg);
+    background-image: url(../assets/ing-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
   }
