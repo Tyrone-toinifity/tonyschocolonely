@@ -1,4 +1,4 @@
-// import "./../scss/main.scss";
+import "./../scss/main.scss";
 import * as bootstrap from "bootstrap";
 
 // Star rating system

@@ -10,13 +10,12 @@
   "author": "Bobby Woody",
   "license": "ISC",
   "dependencies": {
-    "@parcel/resolver-glob": "^2.7.0",
-    "@popperjs/core": "^2.11.6",
-    "bootstrap": "^5.2.1",
-    "parcel": "^2.7.0",
-    "sass": "^1.55.0"
-  },
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.7.0"
+    "@parcel/resolver-glob": "^2.9.2",
+    "@parcel/transformer-sass": "^2.9.2",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.0",
+    "json5": "^2.2.3",
+    "parcel": "^2.9.2",
+    "sass": "^1.63.3"
   }
 }
